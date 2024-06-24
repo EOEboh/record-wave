@@ -59,7 +59,7 @@ const useRecord = () => {
       });
       const url = URL.createObjectURL(blob);
       screenRecording.current.src = url;
-      console.log("screenrecording2", screenRecording);
+      console.log("url video", url);
     };
   };
   return [
